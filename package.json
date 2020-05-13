@@ -1,0 +1,23 @@
+{
+  "name": "simple_login",
+  "version": "1.0.0",
+  "description": "A simple login page with node js and express",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon ./server.js"
+  },
+  "keywords": [
+    "login",
+    "nodejs",
+    "express"
+  ],
+  "author": "James Zedd",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4"
+  }
+}
